@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto', 'Sans-serif', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav {
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #ddd;
+}
+
+nav div {
+	hight: 90px;
+	box-sizing: border-box;
+	float: left;
+}
+
+/* 로고 부분 */
+nav div:nth-child(1) {
+	width: 150px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+/* 메뉴 부분 */
+#top_ul {
+	width: 1200px;
+	padding-top: 35px;
+	padding-left: 150px;
+	margin: 32px auot 0px;
+    position: relative;
+    padding-right: 80px;
+}
+
+#top_ul>li {
+	width: 130px;
+	color: #666;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 17px;
+	padding: 0px;
+	float: left;
+	text-align: center;
+}
+
+#top_icon {
+	width: 280px;
+	padding-left: 25px;
+	position: absolute;
+	right: 30px;
+	top: 5px;
+}
+
+#top_icon div {
+	float: left;
+	margin-right: 5px;
+}
+
+#top_icon>div:nth-child(1) {
+	width: 110px;
+	height: 53px;
+	font-size: 16px;
+	color: white;
+	background-color: #3d3d3d;
+	margin-top: 15px;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 13px;
+}
+
+#top_icon>div:nth-child(2) {
+	width: 70px;
+	height: 53px;
+	font-size: 16px;
+	margin-top: 15px;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 13px;
+	background: url('../images/img/human.png') no-repeat;
+	background-position: center;
+	border: 1px solid black;
+}
+
+#top_icon>div:nth-child(3) {
+	width: 60px;
+	height: 53px;
+	font-size: 16px;
+	color: black;
+	margin-top: 15px;
+	text-align: center;
+	padding-left: 5px;
+	padding-top: 11px;
+	border: 1px solid black;
+	line-height: 17px;
+}
+
+article>div {
+	width: 100%;
+	height: 150px;
+}
+
+article>div>p {
+	width: 1000px;
+	height: 56px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 38px;
+	font-weight: bold;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+#art_form>div{
+	width: 490px;
+	height: 44px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#art_form>div>form>select{
+	width: 123px;
+	height: 42px;
+	font-size: 15px;
+	padding:0 10px;
+	margin-right: 5px;
+	border: 1px solid #ccc;
+	line-height: 42px;
+	color:#666;
+}
+
+#art_form>div>form>input{
+	width: 273px;
+	height: 42px;
+	font-size: 15px;
+	padding:0 10px;
+	margin-right: 5px;
+	border: 1px solid #ccc;
+	line-height: 42px;
+}
+
+#art_form>div>form>button{
+	width: 50px;
+	height: 44px;
+	background-color: #3d3d3d;
+	line-height: 40px;
+	border: 0;
+
+}
+
+#art_form>div>form>button>span{
+	width: 50px;
+	height: 42px;
+	background: url('../images/img/search.png') no-repeat;
+	background-position: center;
+	color:#666;
+	padding: 0 10px;
+}
+
+#art_table>div{
+	width: 1200px;
+	margin: 0 auto;	
+	margin-top:35px;
+}
+
+#art_table table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#art_table table thead{
+	border-top: 3px solid #26252b;
+}
+
+#art_table table thead th:nth-child(1){
+	width: 10%;
+}
+
+
+#art_table table thead th:nth-child(2){
+	width: 70%;
+}
+
+#art_table table thead th:nth-child(3){
+	width: 20%;
+}
+#art_table table tr{
+	height: 55px;
+	border-bottom: 1px solid #bdbdbf;	
+}
+
+#art_table table tr td:nth-child(2){
+	text-align: left; 
+	padding-left:10px;
+}
+
+#art_num{
+	width: 250px; height: 24px;
+	margin: 0 auto; 
+	position: relative;
+	top: 560px;
+}
+
+#art_num strong{
+	width: 36px; height: 35px; 
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	line-height: 32px;
+	display: inline-block;
+	border: 1px solid #989898;
+}
+
+#art_num strong:nth-child(1) {
+	background-image: url('../images/img/paging_first.png');
+	margin: 0px 3px;
+	float: left;
+}
+
+#art_num strong:nth-child(2) {
+	background-image: url('../images/img/paging_prev.png');
+	margin: 0px 20px 0px 3px;
+	float: left;
+}
+
+#art_num strong:nth-child(4) {
+	background-image: url('../images/img/paging_next.png');
+	margin: 0px 3px 0px 20px;
+	float: left;
+}
+
+#art_num strong:nth-child(5) {
+	background-image: url('../images/img/paging_last.png');
+	margin: 0px 3px;
+	float: left;
+}
+
+#art_num a{
+	border: 1px solid #989898;
+	font-weight: bold;
+	float: left;
+	width: 36px; height: 35px; 
+	display: inline-block;
+	line-height: 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	color: balck;
+}
+
+#art_num a:visited {
+	color: black;
+}
